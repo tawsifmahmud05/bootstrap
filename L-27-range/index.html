@@ -20,26 +20,29 @@
         <div class="col-md-6">
           <form>
             <div class="mb-3">
-              <label for="countries" class="form-label">Country</label
-              ><select id="countries" class="form-control form-control-sm">
-                <option selected>Select Country</option>
-                <option value="Bangladesh">Bangladesh</option>
-                <option value="United States">United States</option>
-                <option value="France">France</option>
-              </select>
+              <label class="form-label" for="custom_range">Range</label
+              ><input class="form-range" type="range" id="custom_range" />
             </div>
             <div class="mb-3">
-              <label for="countries" class="form-label">Country</label
-              ><select
-                id="countries"
-                class="form-control form-control-sm"
-                multiple
-              >
-                <option selected>Select Country</option>
-                <option value="Bangladesh">Bangladesh</option>
-                <option value="United States">United States</option>
-                <option value="France">France</option>
-              </select>
+              <label class="form-label" for="custom_range">Range</label
+              ><input
+                class="form-range"
+                type="range"
+                id="custom_range"
+                min="0"
+                max="5"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="custom_range">Range</label
+              ><input
+                class="form-range"
+                type="range"
+                id="custom_range"
+                min="0"
+                max="5"
+                step="0.5"
+              />
             </div>
           </form>
         </div>
